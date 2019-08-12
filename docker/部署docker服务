@@ -1,0 +1,74 @@
+
+
+
+
+准备阶段
+     u盘  放镜像 tar包
+
+
+
+
+安装docker
+
+安装不同版本的docker参考   https://yeasy.gitbooks.io/docker_practice/install/
+
+确定linux服务器的版本，相对于的更改配置
+
+确定docker版本号    17.1.0
+
+安装docker
+
+
+找到当前最大的盘符，新建一个Datagrand文件夹
+然后再下面新建  docker  和  deploy 两个文件夹 （docker 为 docker镜像存放的路径    deploy 为运行docker镜像的位置，产生docker容器）
+
+修改docker配置文件及镜像存储容器
+重新加载并重启docker
+centos参考  https://git.datagrand.com/Data_Implementation_Department/orientation/tree/master/%E7%B3%BB%E7%BB%9F%E5%92%8Cdocker%E5%AE%89%E8%A3%85/%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85#%E5%85%B3%E9%97%AD%E4%B8%8D%E5%BF%85%E8%A6%81%E7%9A%84%E7%B3%BB%E7%BB%9F%E6%9C%8D%E5%8A%A1%E5%8F%8Aselinux
+
+
+
+
+'''
+修改镜像和容器的存放路径
+指定镜像和容器存放路径的参数是–graph=/var/lib/docker，我们只需要修改配置文件指定启动参数即可。
+
+Docker 的配置文件可以设置大部分的后台进程参数，在各个操作系统中的存放位置不一致，在 Ubuntu 中的位置是：/etc/default/docker，在 CentOS 中的位置是：/etc/sysconfig/docker。
+
+如果是 CentOS 则添加下面这行：
+OPTIONS=--graph="/root/data/docker" --selinux-enabled -H fd://
+
+如果是 Ubuntu 则添加下面这行（因为 Ubuntu 默认没开启 selinux）：
+
+OPTIONS=--graph="/root/data/docker" -H fd://
+# 或者
+DOCKER_OPTS="-g /root/data/docker
+
+最后重新启动，Docker 的路径就改成 /root/data/docker 了。
+如果没有生效，按如下操作
+
+vim /etc/default/docker
+添加配置信息
+DOCKER_OPTS="--graph=/home/docker"
+保存退出
+service docker restart
+发现配置并没有生效
+解决方案：
+ mkdir -p /etc/systemd/system/docker.service.d
+ cat /etc/systemd/system/docker.service.d/Using_Environment_File.conf
+如果没有该文件则自行创建，添加以下内容
+[Service]
+EnvironmentFile=-/etc/default/docker
+ExecStart=
+ExecStart=/usr/bin/docker daemon -H fd:// $DOCKER_OPTS
+载入配置重启服务
+systemctl daemon-reload
+service docker restart
+查看配置是否生效
+
+'''
+
+到deploy文件夹下运行docker
+
+
+

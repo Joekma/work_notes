@@ -1,0 +1,32 @@
+iconv 文件编码转换
+
+
+linux shell 配置文件中默认的字符集编码为UTF-8 。UTF-8是unicode的一种表达方式，gb2312是和unicode都是字符的编码方式，所以说gb2312跟utf－8的概念应该不是一个层次上的。
+在LINUX上进行编码转换时,可以利用iconv命令实现,这是针对文件的,即将指定文件从一种编码转换为另一种编码。
+
+
+选项
+输入/输出格式规范：
+-f  --from-code=名称 原始文本编码
+-t  --to-code=名称 输出编码
+
+信息
+-l  --list 列举所有已知的字符集
+
+输出控制
+-c 从输出中忽略无效的字符
+-o, --output=FILE 输出文件
+-s, --silent 关闭警告
+--verbose 打印进度信息
+
+案例
+
+输入：text.txt   编码：gbk
+
+输出：text.out  编码：utf-8
+
+iconv -f gbk -t utf-8 -c  text.txt -o text.out
+
+把text.txt中的文件<content></content>间的文本取出，并且把编码从gbk转化为utf-8保存(grep用法)
+
+cat text.txt | iconv -f gbk -t utf-8 -c | grep "<content>"  -o text.out
