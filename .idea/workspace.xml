@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c9fc423-72b9-4b76-9e55-0ccbde7a9b55" name="Default Changelist" comment="" />
+    <list default="true" id="6c9fc423-72b9-4b76-9e55-0ccbde7a9b55" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SSH/跳板机与堡垒机.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linux相关/ftp与sftp.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linux相关/防火墙的关闭或者端口开放.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSH/1111" beforeDir="false" afterPath="$PROJECT_DIR$/SSH/SSH服务.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,38 +16,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pillow/handle_img.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/linux相关/防火墙的关闭或者端口开放.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="225">
+                <caret line="15" selection-start-line="15" selection-end-line="15" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pillow/teste1.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pillow/img1.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pillow/img3.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pillow/img4.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pillow/img2.png">
-          <provider selected="true" editor-type-id="images" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/linux相关/ftp与sftp.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="471">
+                <caret line="185" selection-start-line="185" selection-end-line="185" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -79,12 +75,12 @@
       <dir>$PROJECT_DIR$/操作系统</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/re/use_re.py" />
-        <option value="$PROJECT_DIR$/re/modify_str.py" />
-        <option value="$PROJECT_DIR$/re/补充资料.py" />
         <option value="$PROJECT_DIR$/Python常用内建模块/itertools操作迭代对象.py" />
         <option value="$PROJECT_DIR$/Python常用内建模块/itertools.py" />
         <option value="$PROJECT_DIR$/Python常用内建模块/itertools_fn.py" />
@@ -133,6 +129,9 @@
         <option value="$PROJECT_DIR$/RPA相关/pyqt/pyqt操作相关窗口" />
         <option value="$PROJECT_DIR$/RPA相关/win32" />
         <option value="$PROJECT_DIR$/pillow/handle_img.py" />
+        <option value="$PROJECT_DIR$/SSH/跳板机与堡垒机.md" />
+        <option value="$PROJECT_DIR$/linux相关/防火墙的关闭或者端口开放.md" />
+        <option value="$PROJECT_DIR$/linux相关/ftp与sftp.md" />
       </list>
     </option>
   </component>
@@ -140,6 +139,7 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -155,7 +155,12 @@
             <path>
               <item name="knowledge_summary" type="b2602c69:ProjectViewProjectNode" />
               <item name="knowledge_summary" type="462c0819:PsiDirectoryNode" />
-              <item name="pillow" type="462c0819:PsiDirectoryNode" />
+              <item name="linux相关" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="knowledge_summary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="knowledge_summary" type="462c0819:PsiDirectoryNode" />
+              <item name="SSH" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -165,6 +170,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pillow" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -374,23 +380,25 @@
       <workItem from="1564711116087" duration="339000" />
       <workItem from="1564712963271" duration="2848000" />
       <workItem from="1565238975779" duration="1054000" />
-      <workItem from="1565603442405" duration="1975000" />
+      <workItem from="1565603442405" duration="2234000" />
+      <workItem from="1565663389559" duration="3000" />
+      <workItem from="1565663396750" duration="2976000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106306000" />
+    <option name="totallyTimeSpent" value="109544000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14878398" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.15307583" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7267525" visible="true" weight="0.3135068" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7267525" weight="0.3135068" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.490701" weight="0.24535316" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -480,19 +488,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/破解验证码/简单的数字，字母验证码/solving_captchas_code_examples/extracted_letter_images/X/000001.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/破解验证码/简单的数字，字母验证码/solving_captchas_code_examples/extracted_letter_images/D/000001.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$USER_HOME$/.conda/envs/knowledge_summary/lib/python2.7/site-packages/keras/engine/sequential.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-542">
-          <caret line="114" column="23" selection-start-line="114" selection-start-column="18" selection-end-line="114" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.conda/envs/knowledge_summary/lib/python2.7/site-packages/keras/layers/core.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1489">
@@ -723,13 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SSH/1111">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/re/modify_str.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -773,16 +761,53 @@
     <entry file="file://$PROJECT_DIR$/pillow/img2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pillow/teste1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pillow/img1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/pillow/teste1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSH/SSH服务.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pillow/handle_img.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="360">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSH/跳板机与堡垒机.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="270">
+            <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux相关/防火墙的关闭或者端口开放.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="225">
+            <caret line="15" selection-start-line="15" selection-end-line="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux相关/ftp与sftp.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="471">
+            <caret line="185" selection-start-line="185" selection-end-line="185" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
