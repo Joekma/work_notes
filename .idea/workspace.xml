@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c9fc423-72b9-4b76-9e55-0ccbde7a9b55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SSH/跳板机与堡垒机.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linux相关/ftp与sftp.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linux相关/防火墙的关闭或者端口开放.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSH/1111" beforeDir="false" afterPath="$PROJECT_DIR$/SSH/SSH服务.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux相关/防火墙的关闭或者端口开放.md" beforeDir="false" afterPath="$PROJECT_DIR$/linux相关/防火墙的关闭或者端口开放.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,32 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linux相关/防火墙的关闭或者端口开放.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="225">
-                <caret line="15" selection-start-line="15" selection-end-line="15" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/linux相关/ftp与sftp.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="471">
-                <caret line="185" selection-start-line="185" selection-end-line="185" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -130,8 +101,8 @@
         <option value="$PROJECT_DIR$/RPA相关/win32" />
         <option value="$PROJECT_DIR$/pillow/handle_img.py" />
         <option value="$PROJECT_DIR$/SSH/跳板机与堡垒机.md" />
-        <option value="$PROJECT_DIR$/linux相关/防火墙的关闭或者端口开放.md" />
         <option value="$PROJECT_DIR$/linux相关/ftp与sftp.md" />
+        <option value="$PROJECT_DIR$/linux相关/防火墙的关闭或者端口开放.md" />
       </list>
     </option>
   </component>
@@ -382,16 +353,15 @@
       <workItem from="1565238975779" duration="1054000" />
       <workItem from="1565603442405" duration="2234000" />
       <workItem from="1565663389559" duration="3000" />
-      <workItem from="1565663396750" duration="2976000" />
+      <workItem from="1565663396750" duration="3947000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109544000" />
+    <option name="totallyTimeSpent" value="110515000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.15307583" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -406,7 +376,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.2732475" side_tool="true" visible="true" weight="0.3135068" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.2732475" side_tool="true" visible="true" weight="0.3135068" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49284694" weight="0.39405206" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -791,21 +761,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linux相关/防火墙的关闭或者端口开放.md">
+    <entry file="file://$PROJECT_DIR$/linux相关/ftp与sftp.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="225">
-            <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <first_editor relative-caret-position="72">
+            <caret line="200" column="13" selection-start-line="200" selection-start-column="13" selection-end-line="200" selection-end-column="13" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linux相关/ftp与sftp.md">
+    <entry file="file://$PROJECT_DIR$/linux相关/防火墙的关闭或者端口开放.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="471">
-            <caret line="185" selection-start-line="185" selection-end-line="185" />
+          <first_editor relative-caret-position="1395">
+            <caret line="93" selection-start-line="93" selection-end-line="93" />
           </first_editor>
           <second_editor />
         </state>
