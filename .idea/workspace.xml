@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c9fc423-72b9-4b76-9e55-0ccbde7a9b55" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/linux相关/防火墙的关闭或者端口开放.md" beforeDir="false" afterPath="$PROJECT_DIR$/linux相关/防火墙的关闭或者端口开放.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linux相关/ssh端口转发与UDP，TCP打洞.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux相关/网络相关" beforeDir="false" afterPath="$PROJECT_DIR$/linux相关/网络相关.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,8 +12,48 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/linux相关/性能监控与优化">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/linux相关/磁盘存储相关">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1168" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/linux相关/网络相关.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="642">
+              <caret line="211" column="4" lean-forward="true" selection-start-line="211" selection-start-column="4" selection-end-line="211" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -52,8 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Python常用内建模块/itertools操作迭代对象.py" />
-        <option value="$PROJECT_DIR$/Python常用内建模块/itertools.py" />
         <option value="$PROJECT_DIR$/Python常用内建模块/itertools_fn.py" />
         <option value="$PROJECT_DIR$/re/正则常用知识.py" />
         <option value="$PROJECT_DIR$/flask-restful/从零开始.py" />
@@ -79,7 +119,6 @@
         <option value="$PROJECT_DIR$/linux相关/磁盘存储相关" />
         <option value="$PROJECT_DIR$/linux相关/常用linux命令.py" />
         <option value="$PROJECT_DIR$/linux相关/定时任务" />
-        <option value="$PROJECT_DIR$/linux相关/网络相关" />
         <option value="$PROJECT_DIR$/操作系统/windows/windows路由表" />
         <option value="$PROJECT_DIR$/虚拟化与网络协议/常用知识.py" />
         <option value="$PROJECT_DIR$/操作系统/处理进程" />
@@ -103,6 +142,9 @@
         <option value="$PROJECT_DIR$/SSH/跳板机与堡垒机.md" />
         <option value="$PROJECT_DIR$/linux相关/ftp与sftp.md" />
         <option value="$PROJECT_DIR$/linux相关/防火墙的关闭或者端口开放.md" />
+        <option value="$PROJECT_DIR$/linux相关/ssh端口转发与UDP，TCP打洞.md" />
+        <option value="$PROJECT_DIR$/linux相关/网络相关" />
+        <option value="$PROJECT_DIR$/linux相关/网络相关.md" />
       </list>
     </option>
   </component>
@@ -116,6 +158,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,7 +180,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -353,17 +395,19 @@
       <workItem from="1565238975779" duration="1054000" />
       <workItem from="1565603442405" duration="2234000" />
       <workItem from="1565663389559" duration="3000" />
-      <workItem from="1565663396750" duration="3947000" />
+      <workItem from="1565663396750" duration="4120000" />
+      <workItem from="1565770402822" duration="3819000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110515000" />
+    <option name="totallyTimeSpent" value="114507000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.15307583" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22031474" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -376,14 +420,14 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.2732475" side_tool="true" visible="true" weight="0.3135068" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.2732475" side_tool="true" visible="true" weight="0.15737298" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49284694" weight="0.39405206" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.3297568" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3297568" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,37 +502,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.conda/envs/knowledge_summary/lib/python2.7/site-packages/keras/layers/core.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1489">
-          <caret line="831" column="17" selection-start-line="831" selection-start-column="17" selection-end-line="831" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.conda/envs/knowledge_summary/lib/python2.7/site-packages/keras/engine/training.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="859" column="18" selection-start-line="859" selection-start-column="12" selection-end-line="859" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.conda/envs/knowledge_summary/lib/python2.7/site-packages/keras/engine/training_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="137" selection-start-line="137" selection-end-line="137" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/破解验证码/简单的数字，字母验证码/solving_captchas_code_examples/train_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="86" column="32" selection-start-line="86" selection-start-column="32" selection-end-line="86" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/破解验证码/文字顺序点击验证码/GeetChinese_crack-master/lib/nets/vgg16.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -560,13 +573,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linux相关/常用linux命令.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="566" column="26" selection-start-line="566" selection-start-column="24" selection-end-line="566" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docker/docker相关.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -582,17 +588,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/linux相关/shell基本语法与示例.md">
-      <provider editor-type-id="text-editor">
-        <state>
-          <caret column="3" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="579">
             <caret line="64" selection-start-line="64" selection-end-line="64" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -778,6 +784,42 @@
             <caret line="93" selection-start-line="93" selection-end-line="93" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux相关/ssh端口转发与UDP，TCP打洞.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="385">
+            <caret line="32" column="57" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux相关/常用linux命令.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5189">
+          <caret line="566" column="26" selection-start-line="566" selection-start-column="24" selection-end-line="566" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux相关/性能监控与优化">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux相关/磁盘存储相关">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1168" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux相关/网络相关.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="642">
+          <caret line="211" column="4" lean-forward="true" selection-start-line="211" selection-start-column="4" selection-end-line="211" selection-end-column="4" />
         </state>
       </provider>
     </entry>
