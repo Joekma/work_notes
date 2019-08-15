@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="6c9fc423-72b9-4b76-9e55-0ccbde7a9b55" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/linux相关/ssh端口转发与UDP，TCP打洞.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linux相关/watch命令.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linux相关/网络相关.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linux相关/网络相关" beforeDir="false" afterPath="$PROJECT_DIR$/linux相关/网络相关.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux相关/网络相关" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,11 +46,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/linux相关/网络相关.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="642">
+            <state relative-caret-position="261">
               <caret line="211" column="4" lean-forward="true" selection-start-line="211" selection-start-column="4" selection-end-line="211" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/linux相关/watch命令.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="135">
+                <caret line="9" selection-start-line="9" selection-end-line="9" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -94,7 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Python常用内建模块/itertools_fn.py" />
         <option value="$PROJECT_DIR$/re/正则常用知识.py" />
         <option value="$PROJECT_DIR$/flask-restful/从零开始.py" />
         <option value="$PROJECT_DIR$/git笔记.py" />
@@ -145,6 +158,7 @@
         <option value="$PROJECT_DIR$/linux相关/ssh端口转发与UDP，TCP打洞.md" />
         <option value="$PROJECT_DIR$/linux相关/网络相关" />
         <option value="$PROJECT_DIR$/linux相关/网络相关.md" />
+        <option value="$PROJECT_DIR$/linux相关/watch命令.md" />
       </list>
     </option>
   </component>
@@ -396,18 +410,18 @@
       <workItem from="1565603442405" duration="2234000" />
       <workItem from="1565663389559" duration="3000" />
       <workItem from="1565663396750" duration="4120000" />
-      <workItem from="1565770402822" duration="3819000" />
+      <workItem from="1565770402822" duration="4255000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114507000" />
+    <option name="totallyTimeSpent" value="114943000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22031474" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22031474" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -420,7 +434,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.2732475" side_tool="true" visible="true" weight="0.15737298" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.2732475" side_tool="true" visible="true" weight="0.15737298" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49284694" weight="0.39405206" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -502,16 +516,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/破解验证码/文字顺序点击验证码/GeetChinese_crack-master/lib/nets/vgg16.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#230#253#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/破解验证码/文字顺序点击验证码/GeetChinese_crack-master/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -818,8 +822,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/linux相关/网络相关.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="642">
+        <state relative-caret-position="261">
           <caret line="211" column="4" lean-forward="true" selection-start-line="211" selection-start-column="4" selection-end-line="211" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux相关/watch命令.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="135">
+            <caret line="9" selection-start-line="9" selection-end-line="9" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
